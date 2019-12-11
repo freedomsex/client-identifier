@@ -1,0 +1,20 @@
+{
+  "name": "freedomsex/client-identifier",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "tebaly",
+      "email": "support@freedomsex.net"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "phpunit/phpunit": "^8.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "FreedomSex\\": "src/"
+    }
+  }
+}
