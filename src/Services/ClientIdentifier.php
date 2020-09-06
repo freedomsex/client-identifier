@@ -28,6 +28,11 @@ class ClientIdentifier
         return sprintf("%u", ip2long($this->ip())); // Числовой
     }
 
+    public function iphash()
+    {
+        return md5($this->ip());
+    }
+
     public function agent()
     {
         return $this->request()->headers->get('User-Agent');
